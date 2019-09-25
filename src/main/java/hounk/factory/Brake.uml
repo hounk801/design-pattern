@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hounk.factory.Brake</OriginalElement>
+  <nodes>
+    <node x="0.0" y="522.0">hounk.factory.GreateTyre</node>
+    <node x="0.0" y="367.0">hounk.factory.GreateMotor</node>
+    <node x="335.0" y="367.0">hounk.factory.CommonBrake</node>
+    <node x="138.0" y="522.0">hounk.factory.CommonTyre</node>
+    <node x="0.0" y="146.0">hounk.factory.X5CarFactory</node>
+    <node x="98.0" y="287.0">hounk.factory.Motor</node>
+    <node x="439.0" y="287.0">hounk.factory.Brake</node>
+    <node x="315.0" y="442.0">hounk.factory.CarFactoryProducter</node>
+    <node x="108.0" y="0.0">hounk.factory.CarFactory</node>
+    <node x="148.0" y="367.0">hounk.factory.CommonMotor</node>
+    <node x="495.0" y="367.0">hounk.factory.GreateBrake</node>
+    <node x="93.0" y="442.0">hounk.factory.Tyre</node>
+    <node x="0.0" y="597.0">hounk.factory.CarOrder</node>
+    <node x="216.0" y="146.0">hounk.factory.X7CarFactory</node>
+    <node x="457.0" y="0.0">hounk.factory.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hounk.factory.GreateBrake" target="hounk.factory.Brake">
+      <point x="0.0" y="-15.0" />
+      <point x="558.0" y="342.0" />
+      <point x="502.75" y="342.0" />
+      <point x="21.25" y="15.0" />
+    </edge>
+    <edge source="hounk.factory.CommonTyre" target="hounk.factory.Tyre">
+      <point x="0.0" y="-15.0" />
+      <point x="204.0" y="497.0" />
+      <point x="150.75" y="497.0" />
+      <point x="19.25" y="15.0" />
+    </edge>
+    <edge source="hounk.factory.X5CarFactory" target="hounk.factory.CarFactory">
+      <point x="0.0" y="-48.0" />
+      <point x="98.0" y="121.0" />
+      <point x="157.0" y="121.0" />
+      <point x="-49.0" y="48.0" />
+    </edge>
+    <edge source="hounk.factory.X7CarFactory" target="hounk.factory.CarFactory">
+      <point x="0.0" y="-48.0" />
+      <point x="314.0" y="121.0" />
+      <point x="255.0" y="121.0" />
+      <point x="49.0" y="48.0" />
+    </edge>
+    <edge source="hounk.factory.GreateTyre" target="hounk.factory.Tyre">
+      <point x="0.0" y="-15.0" />
+      <point x="59.0" y="497.0" />
+      <point x="112.25" y="497.0" />
+      <point x="-19.25" y="15.0" />
+    </edge>
+    <edge source="hounk.factory.CommonBrake" target="hounk.factory.Brake">
+      <point x="0.0" y="-15.0" />
+      <point x="405.0" y="342.0" />
+      <point x="460.25" y="342.0" />
+      <point x="-21.25" y="15.0" />
+    </edge>
+    <edge source="hounk.factory.GreateMotor" target="hounk.factory.Motor">
+      <point x="0.0" y="-15.0" />
+      <point x="64.0" y="342.0" />
+      <point x="119.75" y="342.0" />
+      <point x="-21.75" y="15.0" />
+    </edge>
+    <edge source="hounk.factory.CommonMotor" target="hounk.factory.Motor">
+      <point x="0.0" y="-15.0" />
+      <point x="219.0" y="342.0" />
+      <point x="163.25" y="342.0" />
+      <point x="21.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9581464872944694" x="338.5" y="324.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
