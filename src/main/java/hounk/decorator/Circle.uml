@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hounk.decorator.Circle</OriginalElement>
+  <nodes>
+    <node x="0.0" y="250.0">hounk.decorator.RedShapeDecorator</node>
+    <node x="252.5" y="125.0">hounk.decorator.Circle</node>
+    <node x="252.5" y="0.0">hounk.decorator.Shape</node>
+    <node x="412.5" y="125.0">hounk.decorator.Rectangle</node>
+    <node x="0.0" y="392.0">hounk.decorator.DecoratorPatternDemo</node>
+    <node x="11.5" y="102.0">hounk.decorator.ShapeDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hounk.decorator.Circle" target="hounk.decorator.Shape">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="hounk.decorator.Rectangle" target="hounk.decorator.Shape">
+      <point x="0.0" y="-26.0" />
+      <point x="482.5" y="77.0" />
+      <point x="369.16666666666663" y="77.0" />
+      <point x="46.66666666666663" y="26.0" />
+    </edge>
+    <edge source="hounk.decorator.RedShapeDecorator" target="hounk.decorator.ShapeDecorator">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="hounk.decorator.ShapeDecorator" target="hounk.decorator.Shape">
+      <point x="0.0" y="-49.0" />
+      <point x="122.0" y="77.0" />
+      <point x="275.8333333333333" y="77.0" />
+      <point x="-46.666666666666686" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="276.5" y="222.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
