@@ -1,4 +1,4 @@
-package hounk.decorator;
+package hounk.decorator.shape;
 
 /**
  * @Description 装饰器模式
